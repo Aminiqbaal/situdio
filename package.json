@@ -21,6 +21,9 @@
     "swiper": "^11.1.7",
     "web-vitals": "^2.1.4"
   },
+  "engines": {
+  "node": "18.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
