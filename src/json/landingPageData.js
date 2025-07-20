@@ -418,61 +418,23 @@ export const Testimonials = [
 ];
 
 export const TeamMembers = [
-  { 
-    imageUrl: SISI,
-  },
-  { 
-    imageUrl: STI,
-  },
-  { 
-    imageUrl: SGI,
-  },
-  { 
-    imageUrl: SPI,
-  },
-  { 
-    imageUrl: SIG,
-  },
-  { 
-    imageUrl: GAWI,
-  },
-  { 
-    imageUrl: WINGS,
-  },
-  { 
-    imageUrl: JTM,
-  },
-  { 
-    imageUrl: RSDS,
-  },
-  { 
-    imageUrl: BIN,
-  },
-  { 
-    imageUrl: UISI,
-  },
-  { 
-    imageUrl: SALT,
-  },
-  { 
-    imageUrl: TKM,
-  },
-  { 
-    imageUrl: GMF,
-  },
-  { 
-    imageUrl: JTI,
-  },
-  { 
-    imageUrl: PGN,
-  },
-  { 
-    imageUrl: BPD,
-  },
-  { 
-    imageUrl: LMG,
-  },
-  { 
-    imageUrl: AVE,
-  }
+  { imageUrl: SISI, name: 'PT. Sinergi Informatika Semen Indonesia' },
+  { imageUrl: STI, name: 'PT. Semen Tonasa Indonesia' },
+  { imageUrl: SGI, name: 'PT. Semen Gresik Indonesia' },
+  { imageUrl: SPI, name: 'PT. Semen Padang Indonesia' },
+  { imageUrl: SIG, name: 'PT. Semen Indeonesia (Persero) Tbk.' },
+  { imageUrl: GAWI, name: 'PT. KaryaIndah Alam Sejahtera' },
+  { imageUrl: WINGS, name: 'PT. Wings Surya' },
+  { imageUrl: JTM, name: 'Pemerinta Provinsi Jawa Timur' },
+  { imageUrl: RSDS, name: 'RSUD Dr. Soetomo Jawa Timur' },
+  { imageUrl: BIN, name: 'CV. Borneo Intech' },
+  { imageUrl: UISI, name: 'UISI' },
+  { imageUrl: SALT, name: 'PT.Akomedia Asia (SALT Indonesia)' },
+  { imageUrl: TKM, name: 'PT. Telekomunikasi Selular' },
+  { imageUrl: GMF, name: 'PT. GMF AeroAsia Tbk.' },
+  { imageUrl: JTI, name: 'PT. Jaya Teknologi Internasional' },
+  { imageUrl: PGN, name: 'PT. Patigeni Mitra Sejati' },
+  { imageUrl: BPD, name: 'BAPPEDA Kota Semarang'},
+  { imageUrl: LMG, name: 'Pemerintah Kab. Lamongan' },
+  { imageUrl: AVE, name: 'PT. Avemedia Nusantara' }
 ];
