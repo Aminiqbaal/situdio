@@ -1,0 +1,10 @@
+{
+  "plugins": ["import"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended"
+  ],
+  "rules": {
+    "import/extensions": ["error", "never"]
+  }
+}

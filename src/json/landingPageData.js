@@ -26,6 +26,11 @@ import Reiner from '../assets/images/Testimonials/Reiner.jpg';
 import Kruger from '../assets/images/Testimonials/Kruger.jpg';
 
 // TeamMembers
+import SISI from '../assets/images/TeamMembers/sisi.jpg';
+import STI from '../assets/images/TeamMembers/sti.png';
+import SGI from '../assets/images/TeamMembers/sgi.png';
+import SPI from '../assets/images/TeamMembers/spi.png';
+import SIG from '../assets/images/TeamMembers/sig.jpg';
 import GAWI from '../assets/images/TeamMembers/gawi.png';
 import RSDS from '../assets/images/TeamMembers/rsds.png';
 import BIN from '../assets/images/TeamMembers/borneointech.png';
@@ -38,6 +43,8 @@ import JTI from '../assets/images/TeamMembers/JTI.png';
 import BPD from '../assets/images/TeamMembers/bappeda.png';
 import WINGS from '../assets/images/TeamMembers/wings.png';
 import LMG from '../assets/images/TeamMembers/lamongan.png';
+import JTM from '../assets/images/TeamMembers/jatim.jpg';
+import AVE from '../assets/images/TeamMembers/avemedia.png';
 
 export const Services = [
   {
@@ -412,10 +419,28 @@ export const Testimonials = [
 
 export const TeamMembers = [
   { 
+    imageUrl: SISI,
+  },
+  { 
+    imageUrl: STI,
+  },
+  { 
+    imageUrl: SGI,
+  },
+  { 
+    imageUrl: SPI,
+  },
+  { 
+    imageUrl: SIG,
+  },
+  { 
     imageUrl: GAWI,
   },
   { 
     imageUrl: WINGS,
+  },
+  { 
+    imageUrl: JTM,
   },
   { 
     imageUrl: RSDS,
@@ -447,4 +472,7 @@ export const TeamMembers = [
   { 
     imageUrl: LMG,
   },
+  { 
+    imageUrl: AVE,
+  }
 ];
