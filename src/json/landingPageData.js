@@ -45,6 +45,8 @@ import WINGS from '../assets/images/TeamMembers/wings.png';
 import LMG from '../assets/images/TeamMembers/lamongan.png';
 import JTM from '../assets/images/TeamMembers/jatim.jpg';
 import AVE from '../assets/images/TeamMembers/avemedia.png';
+import MANDIRI from '../assets/images/TeamMembers/mandiri.png';
+import BRI from '../assets/images/TeamMembers/bri.png';
 
 export const Services = [
   {
@@ -425,6 +427,8 @@ export const TeamMembers = [
   { imageUrl: SIG, name: 'PT. Semen Indeonesia Tbk.' },
   { imageUrl: GAWI, name: 'PT. KaryaIndah Alam Sejahtera' },
   { imageUrl: WINGS, name: 'PT. Wings Surya' },
+  { imageUrl: MANDIRI, name: 'PT Bank Mandiri Tbk.' },
+  { imageUrl: BRI, name: 'PT Bank Rakyat Indonesia Tbk.' },
   { imageUrl: JTM, name: 'Pemerintah Provinsi Jawa Timur' },
   { imageUrl: RSDS, name: 'RSUD Dr. Soetomo Jawa Timur' },
   { imageUrl: BIN, name: 'CV. Borneo Intech' },
