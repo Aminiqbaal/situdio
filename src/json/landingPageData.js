@@ -425,7 +425,7 @@ export const TeamMembers = [
   { imageUrl: SIG, name: 'PT. Semen Indeonesia (Persero) Tbk.' },
   { imageUrl: GAWI, name: 'PT. KaryaIndah Alam Sejahtera' },
   { imageUrl: WINGS, name: 'PT. Wings Surya' },
-  { imageUrl: JTM, name: 'Pemerinta Provinsi Jawa Timur' },
+  { imageUrl: JTM, name: 'Pemerintah Provinsi Jawa Timur' },
   { imageUrl: RSDS, name: 'RSUD Dr. Soetomo Jawa Timur' },
   { imageUrl: BIN, name: 'CV. Borneo Intech' },
   { imageUrl: UISI, name: 'UISI' },
