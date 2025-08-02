@@ -7,11 +7,22 @@ import UIUX from '../assets/images/Services/Design.png';
 
 // Portfolio Img Imports
 import FirecekM from '../assets/images/Portfolio/firecek_m.png';
+import FirecekW from '../assets/images/Portfolio/firecek_w.png';
+import ReadM from '../assets/images/Portfolio/read_m.png';
+import ReadW from '../assets/images/Portfolio/read_w.png';
+import ManagementUISI from '../assets/images/Portfolio/uisi_w.png';
+import InfaqbmW from '../assets/images/Portfolio/infaqbm_w.png';
+import QuickCountW from '../assets/images/Portfolio/quickcount_w.png';
+import StickerGenerator from '../assets/images/Portfolio/stickergenerator_w.png';
+import Raprima from '../assets/images/Portfolio/raprima_w.png';
+import ITKI from '../assets/images/Portfolio/itki_w.png';
+import rsds from '../assets/images/Portfolio/rsds_w.png';
+import newsportal from '../assets/images/Portfolio/newsportal_w.png';
 
-import Stream from '../assets/images/Portfolio/Stream.png';
+
+
+
 import Freelance from '../assets/images/Portfolio/Freelance.png';
-import Aura from '../assets/images/Portfolio/Aura.png';
-import Surtido from '../assets/images/Portfolio/Surtido.png';
 import ManagementApp from '../assets/images/Portfolio/ManagementApp.png';
 
 // Advantages
@@ -81,18 +92,149 @@ export const Portfolios = [
     credit: '',
   },
   {
+    id: 'firecekweb',
+    title: 'Firecek Web',
+    imageUrl: FirecekW,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'Laravel & MySQL',
+    ],
+    credit: '',
+  },
+  {
     id: 'readapp',
     title: 'Registration Digital Apps',
-    imageUrl: Stream,
+    imageUrl: ReadM,
     type: 'Mobile Apps',
     responsibility: [
       'Mobile Development',
     ],
 
     detail: [
-      'Mobile Development',
+      'Technology :', 'Android & MySQL',
     ],
     credit: 'https://dribbble.com/shots/15276430-Stream',
+  },
+    {
+    id: 'readweb',
+    title: 'Registration Digital Web',
+    imageUrl: ReadW,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+
+    detail: [
+      'Technology :', 'Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15276430-Stream',
+  },
+    {
+    id: 'uisiweb',
+    title: 'Management Building & Assets UISI',
+    imageUrl: ManagementUISI,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+  {
+    id: 'infaqbmweb',
+    title: 'Infaq PonPes Bahrul Maghfiroh',
+    imageUrl: InfaqbmW,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'Code Igniter & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+  {
+    id: 'quiccountw',
+    title: 'Quick Count Pilkada 2018',
+    imageUrl: QuickCountW,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+  {
+    id: 'stickergeneratorw',
+    title: 'Sticker Generator',
+    imageUrl: StickerGenerator,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+  {
+    id: 'raprimaweb',
+    title: 'E-Commerce Raprima Tempeh',
+    imageUrl: Raprima,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'Code Igniter & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+  {
+    id: 'itkirsdsweb',
+    title: 'Helpdesk ITKI RSUD Dr. Soetomo',
+    imageUrl: ITKI,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'VueJS, Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+  {
+    id: 'rsdsweb',
+    title: 'Company Profile RSUD Dr. Soetomo',
+    imageUrl: rsds,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'VueJS, Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
+    {
+    id: 'newsportal',
+    title: 'News Portal',
+    imageUrl: newsportal,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'PHP, Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
   },
   {
     id: 'ierapps',
@@ -108,116 +250,10 @@ export const Portfolios = [
     ],
     credit: 'https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept',
   },
-  {
-    id: 'readweb',
-    title: 'Registration Digital',
-    imageUrl: Aura,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15176338-Aura-Website-Main-Page',
-  },
-  {
-    id: 'firecekweb',
-    title: 'Firecek',
-    imageUrl: Surtido,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15173118-Surtido-Rico',
-  },
-  {
-    id: 'stickergenweb',
-    title: 'Sticker Generator',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
-  {
-    id: 'rsdsweb',
-    title: 'Company Profile RSUD Dr. Soetomo',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
-  {
-    id: 'itkirsdsweb',
-    title: 'Helpdesk ITKI RSUD Dr. Soetomo',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
+  
   {
     id: 'kanweb',
     title: 'PT. Ketahanan Aspal Nasional',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
-  {
-    id: 'infaqbmweb',
-    title: 'Infaq PonPes Bahrul Maghfiroh',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
-  {
-    id: 'uisiweb',
-    title: 'Management Building & Assets UISI',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
-  {
-    id: 'raprimaweb',
-    title: 'E-Commerce Raprima Tempeh Starter',
     imageUrl: ManagementApp,
     type: 'Website',
     responsibility: [

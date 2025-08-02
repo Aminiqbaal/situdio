@@ -53,7 +53,7 @@ export default function Footer() {
           </p>
           <div className="flex-row">
             <p className="inline-block text-lg text-gray-400 font-light">
-              Made with &#x2764; by&nbsp;
+              Made by&nbsp;
             </p>
             <Button href="https://www.linkedin.com/in/aminiqbaal/" type="link" target="_blank" className="text-lg text-theme-purple font-light" isExternal>
               Muhammad Amin Iqbaal Alam, S.Kom
