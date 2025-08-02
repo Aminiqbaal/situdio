@@ -22,10 +22,10 @@ export default function Portfolio({ data }) {
         </p>
       </Fade>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2 xl:gap-8 justify-items-center">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center">
         {
           // data.map((item, index) => (
-            data.slice(0, 9).map((item, index) => (
+            data.slice(0, 8).map((item, index) => (
             // eslint-disable-next-line react/no-array-index-key
             <Fade direction="up" triggerOnce bottom delay={500 * index} key={index}>
               <Button type="link" href={`/project/${item.id}`}>

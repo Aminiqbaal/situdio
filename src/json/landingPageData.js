@@ -135,7 +135,7 @@ export const Portfolios = [
   },
     {
     id: 'uisiweb',
-    title: 'Management Building & Assets UISI',
+    title: 'Management Assets UISI',
     imageUrl: ManagementUISI,
     type: 'Website',
     responsibility: [
@@ -148,7 +148,7 @@ export const Portfolios = [
   },
   {
     id: 'infaqbmweb',
-    title: 'Infaq PonPes Bahrul Maghfiroh',
+    title: 'Infaq Bahrul Maghfiroh',
     imageUrl: InfaqbmW,
     type: 'Website',
     responsibility: [
