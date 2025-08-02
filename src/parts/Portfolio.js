@@ -24,7 +24,8 @@ export default function Portfolio({ data }) {
 
       <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2 xl:gap-8 justify-items-center">
         {
-          data.map((item, index) => (
+          // data.map((item, index) => (
+            data.slice(0, 9).map((item, index) => (
             // eslint-disable-next-line react/no-array-index-key
             <Fade direction="up" triggerOnce bottom delay={500 * index} key={index}>
               <Button type="link" href={`/project/${item.id}`}>
@@ -50,7 +51,6 @@ export default function Portfolio({ data }) {
           ))
         }
       </div>
-
       <Fade bottom triggerOnce>
         <Button href="/project" type="link" className="flex flex-grow-0 w-36 h-12 sm:w-40 sm:h-14 lg:w-44 lg:h-16 xl:w-36 xl:h-12 text-theme-purple px-5 border border-theme-purple items-center mt-14 rounded-full justify-center transition duration-300 hover:bg-theme-purple hover:text-white">
           <p className="font-normal py-3 lg:text-lg xl:text-base">

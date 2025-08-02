@@ -18,6 +18,7 @@ import Raprima from '../assets/images/Portfolio/raprima_w.png';
 import ITKI from '../assets/images/Portfolio/itki_w.png';
 import rsds from '../assets/images/Portfolio/rsds_w.png';
 import newsportal from '../assets/images/Portfolio/newsportal_w.png';
+import KAN from '../assets/images/Portfolio/kan_w.png';
 
 
 
@@ -236,6 +237,19 @@ export const Portfolios = [
     ],
     credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
   },
+     {
+    id: 'kan',
+    title: 'PT. Ketahanan Aspal Nasional',
+    imageUrl: KAN,
+    type: 'Website',
+    responsibility: [
+      'Web Development',
+    ],
+    detail: [
+      'Technology :', 'PHP, Laravel & MySQL',
+    ],
+    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
+  },
   {
     id: 'ierapps',
     title: 'IER Apps',
@@ -249,20 +263,6 @@ export const Portfolios = [
       'Mobile Development',
     ],
     credit: 'https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept',
-  },
-  
-  {
-    id: 'kanweb',
-    title: 'PT. Ketahanan Aspal Nasional',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
   },
   {
     id: 'orbitweb',
