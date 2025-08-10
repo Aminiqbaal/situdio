@@ -19,10 +19,6 @@ import ITKI from '../assets/images/Portfolio/itki_w.png';
 import rsds from '../assets/images/Portfolio/rsds_w.png';
 import newsportal from '../assets/images/Portfolio/newsportal_w.png';
 import KAN from '../assets/images/Portfolio/kan_w.png';
-
-
-
-
 import Freelance from '../assets/images/Portfolio/Freelance.png';
 import ManagementApp from '../assets/images/Portfolio/ManagementApp.png';
 
@@ -33,9 +29,10 @@ import Management from '../assets/images/Advantages/Management.png';
 import Favorite from '../assets/images/Advantages/Favorite.png';
 
 // Testimonials
-import Sasha from '../assets/images/Testimonials/Sasha.jpg';
-import Reiner from '../assets/images/Testimonials/Reiner.jpg';
-import Kruger from '../assets/images/Testimonials/Kruger.jpg';
+import Bobby from '../assets/images/Testimonials/Bobby GMF.png';
+import lriansyah from '../assets/images/Testimonials/levi-riyansyah.jpg';
+import baihaqy from '../assets/images/Testimonials/ahmad-baihaqy.jpeg';
+import Arik from '../assets/images/Testimonials/arik.jpeg';
 
 // TeamMembers
 import SISI from '../assets/images/TeamMembers/sisi.jpg';
@@ -434,24 +431,31 @@ export const Advantages = [
 export const Testimonials = [
   {
     id: 1,
-    name: 'Sasha Rose',
-    company: 'Owner, Surveyor Corps',
-    testimoni: 'Thanks for SahabatIqbaal, you guys are the best! Keep up the great work!',
-    imageUrl: Sasha,
+    name: 'Bobi Gumelar Raspati',
+    company: 'Director of Base Management, PT. Garuda Maintenance Facility Aero Asia',
+    testimoni: 'Thanks for SItudio, you guys are the best! Keep up the great work!',
+    imageUrl: Bobby,
   },
   {
     id: 2,
-    name: 'Kruger Khan',
-    company: 'Director, Shultan Oil',
-    testimoni: 'I just wanted to let you know that it’s been great working with SahabatIqbaal.',
-    imageUrl: Kruger,
+    name: 'Levi Riyansyah',
+    company: 'Director, PT. Avemedia Nusantara',
+    testimoni: 'I just wanted to let you know that it’s been great working with SItudio.',
+    imageUrl: lriansyah,
   },
   {
     id: 3,
-    name: 'Reiner John',
-    company: 'CEO, Marley CO',
-    testimoni: 'SahabatIqbaal is so great. Thank you so much for a job well done.',
-    imageUrl: Reiner,
+    name: 'Ahmad Baihaqy',
+    company: 'CEO, CV. Pastijadi Digital Solution',
+    testimoni: 'SItudio is so great. Thank you so much for a job well done.',
+    imageUrl: baihaqy,
+  },
+  {
+    id: 4,
+    name: 'Arik Khudrianto',
+    company: 'Mechanical Section Head, PT. KaryaIndah Alam Sejahtera (Wings Group)',
+    testimoni: 'SItudio is so great. Thank you so much for a job well done.',
+    imageUrl: Arik,
   },
 ];
 

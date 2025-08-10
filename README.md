@@ -20,7 +20,7 @@ A software house profile website built with ReactJS and TailwindCSS :computer:
 - [**ESLint**](https://eslint.org/) : Linting and formatting
 
 ### Demo
-**Demo :** [SahabatIqbaal.vercel.app](https://SahabatIqbaal.vercel.app/)
+**Demo :** [SItudio.vercel.app](https://SItudio.vercel.app/)
 
 ### Available Scripts
 In the project directory, you can run:
