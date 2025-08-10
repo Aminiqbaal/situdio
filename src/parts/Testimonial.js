@@ -46,6 +46,7 @@ export default function Testimonial({ data }) {
                 <div className="flex-col pl-5">
                   <h2 className="text-theme-blue text-2xl">{item.name}</h2>
                   <p className="font-light text-gray-400">{item.company}</p>
+                  <p className="text-purple-500 text-sm">{item.year}</p>
                 </div>
               </div>
               <p className="font-light text-2xl text-gray-400 pl-5 pt-3 pb-1">

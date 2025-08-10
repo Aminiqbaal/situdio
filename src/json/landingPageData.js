@@ -33,6 +33,7 @@ import Bobby from '../assets/images/Testimonials/Bobby GMF.png';
 import lriansyah from '../assets/images/Testimonials/levi-riyansyah.jpg';
 import baihaqy from '../assets/images/Testimonials/ahmad-baihaqy.jpeg';
 import Arik from '../assets/images/Testimonials/arik.jpeg';
+import cita from '../assets/images/Testimonials/cita-rosita.png';
 
 // TeamMembers
 import SISI from '../assets/images/TeamMembers/sisi.jpg';
@@ -435,6 +436,7 @@ export const Testimonials = [
     company: 'Director of Base Management, PT. Garuda Maintenance Facility Aero Asia',
     testimoni: 'Thanks for SItudio, you guys are the best! Keep up the great work!',
     imageUrl: Bobby,
+    year: 2022,
   },
   {
     id: 2,
@@ -442,13 +444,15 @@ export const Testimonials = [
     company: 'Director, PT. Avemedia Nusantara',
     testimoni: 'I just wanted to let you know that it’s been great working with SItudio.',
     imageUrl: lriansyah,
+    year: 2019,
   },
   {
     id: 3,
     name: 'Ahmad Baihaqy',
-    company: 'CEO, CV. Pastijadi Digital Solution',
+    company: 'Chief Executive Officer, CV. Pastijadi Digital Solution',
     testimoni: 'SItudio is so great. Thank you so much for a job well done.',
     imageUrl: baihaqy,
+    year: 2020,
   },
   {
     id: 4,
@@ -456,6 +460,15 @@ export const Testimonials = [
     company: 'Mechanical Section Head, PT. KaryaIndah Alam Sejahtera (Wings Group)',
     testimoni: 'SItudio is so great. Thank you so much for a job well done.',
     imageUrl: Arik,
+    year: 2025,
+  },
+  {
+    id: 5,
+    name: 'Prof. Dr. Cita Rosita Sigit Prakoeswa, dr., Sp.DVE., Subsp.DAI., FINSDV, FAADV., MARS',
+    company: 'Chief Executive Officer, RSUD Dr. Soetomo East Java)',
+    testimoni: 'SItudio is so great. Thank you so much for a job well done.',
+    imageUrl: cita,
+    year: 2021,
   },
 ];
 

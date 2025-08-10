@@ -17,9 +17,9 @@ export default function Footer() {
           <div className="w-1/3 flex-col ml-16 mr-8">
             <BrandIcon />
             <p className="w-full text-lg text-gray-400 font-light">
-              Growing Your Business
+              Innovative IT Solutions for
               <br />
-              Is Our Calling
+              a Smarter Future
             </p>
           </div>
 
@@ -29,7 +29,7 @@ export default function Footer() {
               Office
             </h1>
             <p className="text-lg text-gray-400 font-light">
-              Gresik, East Java, Indonesia
+              Jl. Raya Permata, Suci, Manyar District, Gresik Regency, East Java 61124
             </p>
           </div>
 
