@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="w-1/3 flex-col ml-16 mr-8">
             <BrandIcon />
             <p className="w-full text-lg text-gray-400 font-light">
-              Innovative IT Solutions for
+              Solutions Innovative IT for
               <br />
               a Smarter Future
             </p>
