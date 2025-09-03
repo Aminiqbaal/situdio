@@ -39,7 +39,7 @@ export default function Footer() {
               Social Media
             </h1>
             <Button
-              href="https://www.instagram.com/sahabat.iqbaal/"
+              href="https://www.instagram.com/situdio.id/"
               type="link"
               target="_blank"
               className="flex items-center gap-2 text-lg text-gray-400 font-light hover:underline"
