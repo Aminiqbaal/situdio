@@ -6,6 +6,7 @@ import Mobile from '../assets/images/Services/Mobile.png';
 import UIUX from '../assets/images/Services/Design.png';
 
 // Portfolio Img Imports
+import IerappsM from '../assets/images/Portfolio/ierapps_m.png';
 import FirecekM from '../assets/images/Portfolio/firecek_m.png';
 import FirecekW from '../assets/images/Portfolio/firecek_w.png';
 import ReadM from '../assets/images/Portfolio/read_m.png';
@@ -19,7 +20,6 @@ import ITKI from '../assets/images/Portfolio/itki_w.png';
 import rsds from '../assets/images/Portfolio/rsds_w.png';
 import newsportal from '../assets/images/Portfolio/newsportal_w.png';
 import KAN from '../assets/images/Portfolio/kan_w.png';
-import Freelance from '../assets/images/Portfolio/Freelance.png';
 import ManagementApp from '../assets/images/Portfolio/ManagementApp.png';
 
 // Advantages
@@ -73,7 +73,7 @@ export const Services = [
     title: 'UI/UX Design',
     imageUrl: UIUX,
     animation: 'right',
-  },
+  }
 ];
 
 export const Portfolios = [
@@ -87,6 +87,19 @@ export const Portfolios = [
     ],
     detail: [
       'Technology :', 'Flutter & MySQL',
+    ],
+    credit: '',
+  },
+  {
+    id: 'ierapps',
+    title: 'IerApps',
+    imageUrl: IerappsM,
+    type: 'Mobile Apps',
+    responsibility: [
+      'Mobile Development',
+    ],
+    detail: [
+      'Technology :', 'Flutter & PostgreSQL',
     ],
     credit: '',
   },
@@ -247,20 +260,6 @@ export const Portfolios = [
       'Technology :', 'PHP, Laravel & MySQL',
     ],
     credit: 'https://dribbble.com/shots/15197890-Courses-Management-and-Promoting-Web-App',
-  },
-  {
-    id: 'ierapps',
-    title: 'IER Apps',
-    imageUrl: Freelance,
-    type: 'Mobile Apps',
-    responsibility: [
-      'Mobile Development',
-    ],
-
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept',
   },
   {
     id: 'orbitweb',
