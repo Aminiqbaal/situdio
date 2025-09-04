@@ -7,6 +7,15 @@ import UIUX from '../assets/images/Services/Design.png';
 
 // Portfolio Img Imports
 import IerappsM from '../assets/images/Portfolio/ierapps_m.png';
+import myorbit from '../assets/images/Portfolio/myorbit.png';
+import gudfresh from '../assets/images/Portfolio/gudfresh.png';
+import ITPMO from '../assets/images/Portfolio/ictpmo.png';
+import ARC from '../assets/images/Portfolio/arc.png';
+import Budgeting from '../assets/images/Portfolio/budgeting.png';
+import ASDCS from '../assets/images/Portfolio/hil.png';
+import TMS from '../assets/images/Portfolio/tms.png';
+import xpream from '../assets/images/Portfolio/xpream.png';
+import xpreamtv from '../assets/images/Portfolio/xpream tv.png';
 import FirecekM from '../assets/images/Portfolio/firecek_m.png';
 import FirecekW from '../assets/images/Portfolio/firecek_w.png';
 import ReadM from '../assets/images/Portfolio/read_m.png';
@@ -20,7 +29,6 @@ import ITKI from '../assets/images/Portfolio/itki_w.png';
 import rsds from '../assets/images/Portfolio/rsds_w.png';
 import newsportal from '../assets/images/Portfolio/newsportal_w.png';
 import KAN from '../assets/images/Portfolio/kan_w.png';
-import ManagementApp from '../assets/images/Portfolio/ManagementApp.png';
 
 // Advantages
 import Communicative from '../assets/images/Advantages/Communicative.png';
@@ -264,7 +272,7 @@ export const Portfolios = [
   {
     id: 'orbitweb',
     title: 'E-Commerce Telkomsel My Orbit',
-    imageUrl: ManagementApp,
+    imageUrl: myorbit,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -276,8 +284,8 @@ export const Portfolios = [
   },
   {
     id: 'superindoweb',
-    title: 'Management Warehouse Superindo',
-    imageUrl: ManagementApp,
+    title: 'Management Stock Warehouse Superindo',
+    imageUrl: gudfresh,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -289,21 +297,8 @@ export const Portfolios = [
   },
   {
     id: 'budgetrealweb',
-    title: 'Budget Realization PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: 'https://www.figma.com/design/gtC4w1XOxnwUJgyjFD6mKn/Portofolio-1?node-id=2319-3338&p=f',
-  },
-  {
-    id: 'budgetrealweb',
-    title: 'Budget Realization PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
+    title: 'E-Budget Realization PT. GMF AeroAsia',
+    imageUrl: Budgeting,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -315,8 +310,8 @@ export const Portfolios = [
   },
   {
     id: 'tmsweb',
-    title: 'Tools Management System PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
+    title: 'Tools Management PT. GMF AeroAsia',
+    imageUrl: TMS,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -328,8 +323,8 @@ export const Portfolios = [
   },
   {
     id: 'itpmoweb',
-    title: 'ICT Project Management PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
+    title: 'ICT Project Management Officer PT. GMF AeroAsia',
+    imageUrl: ITPMO,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -342,7 +337,7 @@ export const Portfolios = [
   {
     id: 'arcweb',
     title: 'ARC Monthly Report PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
+    imageUrl: ARC,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -354,21 +349,8 @@ export const Portfolios = [
   },
   {
     id: 'hilweb',
-    title: 'Hold Item List PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
-    type: 'Website',
-    responsibility: [
-      'Web Development',
-    ],
-    detail: [
-      'Mobile Development',
-    ],
-    credit: '',
-  },
-  {
-    id: 'imteweb',
-    title: 'IMTE PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
+    title: 'Hold Item List ASDCS PT. GMF AeroAsia',
+    imageUrl: ASDCS,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -381,7 +363,7 @@ export const Portfolios = [
   {
     id: 'xpreamweb',
     title: 'XPREAM PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
+    imageUrl: xpream,
     type: 'Website',
     responsibility: [
       'Web Development',
@@ -394,7 +376,7 @@ export const Portfolios = [
   {
     id: 'xpreamtvweb',
     title: 'XPREAM Unit TV PT. GMF AeroAsia',
-    imageUrl: ManagementApp,
+    imageUrl: xpreamtv,
     type: 'Website',
     responsibility: [
       'Web Development',
