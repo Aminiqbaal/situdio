@@ -60,17 +60,17 @@ import BRI from '../assets/images/TeamMembers/bri.png';
 
 export const Services = [
   {
-    title: 'Web Development',
+    title: 'Website',
     imageUrl: Web,
     animation: 'left',
   },
   {
-    title: 'Mobile Development',
+    title: 'Mobile Apps',
     imageUrl: Mobile,
     animation: 'up',
   },
   {
-    title: 'UI/UX Design',
+    title: 'Desktop Apps',
     imageUrl: UIUX,
     animation: 'right',
   }
