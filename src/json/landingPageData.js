@@ -45,6 +45,7 @@ import cita from '../assets/images/Testimonials/cita-rosita.png';
 
 // TeamMembers
 import SISI from '../assets/images/TeamMembers/sisi.jpg';
+import PTKAN from '../assets/images/TeamMembers/ptkan.png';
 import STI from '../assets/images/TeamMembers/sti.png';
 import SGI from '../assets/images/TeamMembers/sgi.png';
 import SPI from '../assets/images/TeamMembers/spi.png';
@@ -65,6 +66,8 @@ import JTM from '../assets/images/TeamMembers/jatim.jpg';
 import AVE from '../assets/images/TeamMembers/avemedia.png';
 import MANDIRI from '../assets/images/TeamMembers/mandiri.png';
 import BRI from '../assets/images/TeamMembers/bri.png';
+import LPKBH from '../assets/images/TeamMembers/lpkbh-albaihaqy.png';
+import PSTJ from '../assets/images/TeamMembers/pastijadi.png';
 
 export const Services = [
   {
@@ -474,5 +477,8 @@ export const TeamMembers = [
   { imageUrl: PGN, name: 'PT. Patigeni Mitra Sejati' },
   { imageUrl: BPD, name: 'BAPPEDA Kota Semarang'},
   { imageUrl: LMG, name: 'Pemerintah Kab. Lamongan' },
+  { imageUrl: PTKAN, name: 'PT. Ketahanan Aspal Nasional' },
+  { imageUrl: LPKBH, name: 'LPKBH Al-Baihaqy' },
+  { imageUrl: PSTJ, name: 'CV. Pastijadi Digital Solutions' },
   { imageUrl: AVE, name: 'PT. Avemedia Nusantara' }
 ];
