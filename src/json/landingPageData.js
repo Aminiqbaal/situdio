@@ -469,7 +469,7 @@ export const TeamMembers = [
   { imageUrl: JTM, name: 'Pemerintah Provinsi Jawa Timur' },
   { imageUrl: RSDS, name: 'RSUD Dr. Soetomo Jawa Timur' },
   { imageUrl: BIN, name: 'CV. Borneo Intech' },
-  { imageUrl: UISI, name: 'Universitas International Semen Indoensia' },
+  { imageUrl: UISI, name: 'Univ. International Semen Indoensia' },
   { imageUrl: SALT, name: 'PT.Akomedia Asia (SALT Indonesia)' },
   { imageUrl: TKM, name: 'PT. Telekomunikasi Selular' },
   { imageUrl: GMF, name: 'PT. GMF Aero Asia Tbk.' },
