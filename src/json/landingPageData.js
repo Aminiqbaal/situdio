@@ -449,7 +449,7 @@ export const Testimonials = [
   {
     id: 5,
     name: 'Prof. Dr. Cita Rosita Sigit Prakoeswa, dr., Sp.DVE., Subsp.DAI., FINSDV, FAADV., MARS',
-    company: 'Chief Executive Officer, RSUD Dr. Soetomo East Java)',
+    company: 'Chief Executive Officer, RSUD Dr. Soetomo East Java',
     testimoni: 'SItudio is so great. Thank you so much for a job well done.',
     imageUrl: cita,
     year: 2021,
