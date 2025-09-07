@@ -70,6 +70,7 @@ import BRI from '../assets/images/TeamMembers/bri.png';
 import LPKBH from '../assets/images/TeamMembers/lpkbh-albaihaqy.png';
 import PSTJ from '../assets/images/TeamMembers/pastijadi.png';
 import ITATS from '../assets/images/TeamMembers/itats.png';
+import PPBM from '../assets/images/TeamMembers/ppbm.png';
 
 export const Services = [
   {
@@ -482,6 +483,7 @@ export const TeamMembers = [
   { imageUrl: LMG, name: 'Pemerintah Kab. Lamongan' },
   { imageUrl: PTKAN, name: 'PT. Ketahanan Aspal Nasional' },
   { imageUrl: LPKBH, name: 'LPKBH Al-Baihaqy' },
+  { imageUrl: PPBM, name: 'Pondok Pesantren Baghrul Maghfiroh' },
   { imageUrl: PSTJ, name: 'CV. Pastijadi Digital Solutions' },
   { imageUrl: ITATS, name: 'Institut Teknologi Adhi Tama Surabaya' },
   { imageUrl: AVE, name: 'PT. Avemedia Nusantara' }
