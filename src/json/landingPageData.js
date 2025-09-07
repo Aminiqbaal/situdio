@@ -461,7 +461,7 @@ export const TeamMembers = [
   { imageUrl: STI, name: 'PT. Semen Tonasa Indonesia' },
   { imageUrl: SGI, name: 'PT. Semen Gresik Indonesia' },
   { imageUrl: SPI, name: 'PT. Semen Padang Indonesia' },
-  { imageUrl: SIG, name: 'PT. Semen Indeonesia Tbk.' },
+  { imageUrl: SIG, name: 'PT. Semen Indonesia Tbk.' },
   { imageUrl: GAWI, name: 'PT. KaryaIndah Alam Sejahtera' },
   { imageUrl: WINGS, name: 'PT. Wings Surya' },
   { imageUrl: MANDIRI, name: 'PT Bank Mandiri Tbk.' },
