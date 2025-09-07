@@ -60,6 +60,7 @@ import PGN from '../assets/images/TeamMembers/patigeni.png';
 import TKM from '../assets/images/TeamMembers/telkomsel.png';
 import JTI from '../assets/images/TeamMembers/JTI.png';
 import BPD from '../assets/images/TeamMembers/bappeda.png';
+import BMM from '../assets/images/TeamMembers/bromindo.webp';
 import WINGS from '../assets/images/TeamMembers/wings.png';
 import LMG from '../assets/images/TeamMembers/lamongan.png';
 import JTM from '../assets/images/TeamMembers/jatim.jpg';
@@ -476,6 +477,7 @@ export const TeamMembers = [
   { imageUrl: GMF, name: 'PT. GMF Aero Asia Tbk.' },
   { imageUrl: JTI, name: 'PT. Jaya Teknologi Internasional' },
   { imageUrl: PGN, name: 'PT. Patigeni Mitra Sejati' },
+  { imageUrl: BMM, name: 'PT. Bromindo Mekar Mitra' },
   { imageUrl: BPD, name: 'BAPPEDA Kota Semarang'},
   { imageUrl: LMG, name: 'Pemerintah Kab. Lamongan' },
   { imageUrl: PTKAN, name: 'PT. Ketahanan Aspal Nasional' },
