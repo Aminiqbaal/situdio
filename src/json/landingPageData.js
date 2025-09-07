@@ -483,7 +483,7 @@ export const TeamMembers = [
   { imageUrl: LMG, name: 'Pemerintah Kab. Lamongan' },
   { imageUrl: PTKAN, name: 'PT. Ketahanan Aspal Nasional' },
   { imageUrl: LPKBH, name: 'LPKBH Al-Baihaqy' },
-  { imageUrl: PPBM, name: 'Pondok Pesantren Baghrul Maghfiroh' },
+  { imageUrl: PPBM, name: 'Pondok Pesantren Bahrul Maghfiroh' },
   { imageUrl: PSTJ, name: 'CV. Pastijadi Digital Solutions' },
   { imageUrl: ITATS, name: 'Institut Teknologi Adhi Tama Surabaya' },
   { imageUrl: AVE, name: 'PT. Avemedia Nusantara' }
