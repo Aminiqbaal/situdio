@@ -19,7 +19,7 @@ export default function HeroTeam() {
         </Fade>
         <Fade direction="up" delay={500} triggerOnce>
           <p className="font-light text-xl text-gray-400 leading-relaxed">
-            My Name Muhammad Amin Iqbaal Alam, graduate Bachelor Technology of Brawijaya University.
+            My Name Muhammad Amin Iqbaal Alam, graduate Bachelor Technology of Brawijaya University. I've Certified IT Project Manager, AK3U, Data Science & Software Engineer.
           </p>
         </Fade>
       </div>
