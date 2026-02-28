@@ -15,6 +15,7 @@ import BrandIcon from './BrandIcon';
 
 export default function Header() {
   const [isCollapse, setIsCollapse] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const location = useLocation();
   const path = location.pathname;
 
@@ -58,6 +59,48 @@ export default function Header() {
           >
             Project
           </Button>
+        </li>
+        <li 
+          className="relative py-2 lg:py-0"
+          onMouseEnter={() => setIsDropdownOpen(true)}
+          onMouseLeave={() => setIsDropdownOpen(false)}
+        >
+          {/* Tombol Utama Product */}
+          <button className="font-medium text-lg px-5 no-underline hover:underline text-theme-blue flex items-center outline-none">
+            Product
+            <svg className={`w-4 h-4 ml-1 transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          {/* List Dropdown */}
+          <Transition
+            show={isDropdownOpen}
+            enter="transition ease-out duration-100"
+            enterFrom="transform opacity-0 scale-95"
+            enterTo="transform opacity-100 scale-100"
+            leave="transition ease-in duration-75"
+            leaveFrom="transform opacity-100 scale-100"
+            leaveTo="transform opacity-0 scale-95"
+          >
+            <ul className="absolute left-0 mt-2 w-48 bg-white border border-gray-100 shadow-xl rounded-xl overflow-hidden z-50">
+              {/* <li>
+                <a href="https://situdio-wedding.vercel.app/" target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
+                  E-Wedding
+                </a>
+              </li> */}
+              {/* <li>
+                <a href="/link-b" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
+                  B (Link Internal)
+                </a>
+              </li>
+              <li>
+                <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
+                  C (Link Eksternal)
+                </a>
+              </li> */}
+            </ul>
+          </Transition>
         </li>
         <li>
           <Button
