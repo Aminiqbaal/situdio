@@ -84,11 +84,11 @@ export default function Header() {
             leaveTo="transform opacity-0 scale-95"
           >
             <ul className="absolute left-0 mt-2 w-48 bg-white border border-gray-100 shadow-xl rounded-xl overflow-hidden z-50">
-              {/* <li>
+              <li>
                 <a href="https://situdio-wedding.vercel.app/" target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
                   E-Wedding
                 </a>
-              </li> */}
+              </li>
               {/* <li>
                 <a href="/link-b" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
                   B (Link Internal)
