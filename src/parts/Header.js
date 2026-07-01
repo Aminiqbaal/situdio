@@ -85,7 +85,9 @@ export default function Header() {
           >
             <ul className="absolute left-0 mt-2 w-48 bg-white border border-gray-100 shadow-xl rounded-xl overflow-hidden z-50">
               <li>
-                <a href="https://situdio-wedding.vercel.app/" target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
+                <a 
+                // href="https://situdio-wedding.vercel.app/"
+                 target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
                   E-Wedding
                 </a>
               </li>
