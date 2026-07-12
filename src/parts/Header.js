@@ -93,7 +93,7 @@ export default function Header() {
               </li>
               <li>
                 <a 
-                href="https://portofolio-iqbaal.vercel.app/"
+                href="https://portofolio-iqbaal.vercel.app/" 
                  target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
                   Company Profile
                 </a>
