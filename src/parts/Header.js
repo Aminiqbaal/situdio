@@ -66,7 +66,7 @@ export default function Header() {
             type="link"
             href="/project"
           >
-            Portofolio Project
+            Portofolio
           </Button>
         </li>
         <li 
