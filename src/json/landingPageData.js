@@ -44,6 +44,8 @@ import Arik from '../assets/images/Testimonials/arik.jpeg';
 import cita from '../assets/images/Testimonials/cita-rosita.png';
 
 // TeamMembers
+import SMBR from '../assets/images/TeamMembers/smbr.jpg';
+import SBI from '../assets/images/TeamMembers/sbi.png';
 import SISI from '../assets/images/TeamMembers/sisi.jpg';
 import PTKAN from '../assets/images/TeamMembers/ptkan.png';
 import STI from '../assets/images/TeamMembers/sti.png';
@@ -460,13 +462,15 @@ export const Testimonials = [
 ];
 
 export const TeamMembers = [
-  { imageUrl: SISI, name: 'PT. Sinergi Informatika Semen Indonesia' },
-  { imageUrl: STI, name: 'PT. Semen Tonasa Indonesia' },
-  { imageUrl: SGI, name: 'PT. Semen Gresik Indonesia' },
-  { imageUrl: SPI, name: 'PT. Semen Padang Indonesia' },
-  { imageUrl: SIG, name: 'PT. Semen Indonesia Tbk.' },
-  { imageUrl: GAWI, name: 'PT. KaryaIndah Alam Sejahtera' },
-  { imageUrl: WINGS, name: 'PT. Wings Surya' },
+  { imageUrl: SMBR, name: 'PT Semen Baturaja Tbk' },
+  { imageUrl: SBI, name: 'PT Solusi Bangun Indonesia Tbk' },
+  { imageUrl: SISI, name: 'PT Sinergi Informatika Semen Indonesia' },
+  { imageUrl: STI, name: 'PT Semen Tonasa Indonesia' },
+  { imageUrl: SGI, name: 'PT Semen Gresik Indonesia' },
+  { imageUrl: SPI, name: 'PT Semen Padang Indonesia' },
+  { imageUrl: SIG, name: 'PT Semen Indonesia Tbk.' },
+  { imageUrl: GAWI, name: 'PT KaryaIndah Alam Sejahtera' },
+  { imageUrl: WINGS, name: 'PT Wings Surya' },
   { imageUrl: MANDIRI, name: 'PT Bank Mandiri Tbk.' },
   { imageUrl: BRI, name: 'PT Bank Rakyat Indonesia Tbk.' },
   { imageUrl: JTM, name: 'Pemerintah Provinsi Jawa Timur' },
@@ -474,17 +478,18 @@ export const TeamMembers = [
   { imageUrl: BIN, name: 'CV. Borneo Intech' },
   { imageUrl: UISI, name: 'Univ. International Semen Indonesia' },
   { imageUrl: SALT, name: 'PT.Akomedia Asia (SALT Indonesia)' },
-  { imageUrl: TKM, name: 'PT. Telekomunikasi Selular' },
-  { imageUrl: GMF, name: 'PT. GMF Aero Asia Tbk.' },
-  { imageUrl: JTI, name: 'PT. Jaya Teknologi Internasional' },
-  { imageUrl: PGN, name: 'PT. Patigeni Mitra Sejati' },
-  { imageUrl: BMM, name: 'PT. Bromindo Mekar Mitra' },
+  { imageUrl: TKM, name: 'PT Telekomunikasi Selular' },
+  { imageUrl: GMF, name: 'PT GMF Aero Asia Tbk.' },
+  { imageUrl: JTI, name: 'PT Jaya Teknologi Internasional' },
+  { imageUrl: PGN, name: 'PT Patigeni Mitra Sejati' },
+  { imageUrl: BMM, name: 'PT Bromindo Mekar Mitra' },
   { imageUrl: BPD, name: 'BAPPEDA Kota Semarang'},
   { imageUrl: LMG, name: 'Pemerintah Kab. Lamongan' },
-  { imageUrl: PTKAN, name: 'PT. Ketahanan Aspal Nasional' },
+  { imageUrl: PTKAN, name: 'PT Ketahanan Aspal Nasional' },
   { imageUrl: LPKBH, name: 'LPKBH Al-Baihaqy' },
   { imageUrl: PPBM, name: 'Pondok Pesantren Bahrul Maghfiroh' },
   { imageUrl: PSTJ, name: 'CV. Pastijadi Digital Solutions' },
   { imageUrl: ITATS, name: 'Institut Teknologi Adhi Tama Surabaya' },
-  { imageUrl: AVE, name: 'PT. Avemedia Nusantara' }
+  { imageUrl: AVE, name: 'PT Avemedia Nusantara' }
+  
 ];

@@ -12,6 +12,7 @@ import { useLocation } from 'react-router-dom';
 
 import Button from '../elements/Button';
 import BrandIcon from './BrandIcon';
+import logoSitudio from '../assets/images/Logo/logo situdio.png';
 
 export default function Header() {
   const [isCollapse, setIsCollapse] = useState(false);
@@ -22,7 +23,15 @@ export default function Header() {
   return (
     <header className="header">
       <div className="flex justify-between px-4 lg:px-0">
-        <BrandIcon />
+        {/* Menggunakan Logo Situdio dengan ukuran yang diperbesar lagi */}
+        <Button className="flex items-center no-underline" type="link" href="/">
+          <img 
+            src={logoSitudio} 
+            alt="SItudio Logo" 
+            className="h-[120px] lg:h-[150px] w-auto object-contain -my-6 scale-110 origin-left" 
+          />
+        </Button>
+        {/* <BrandIcon /> */}
 
         <button className="block text-theme-blue lg:hidden focus:outline-none" onClick={() => setIsCollapse(!isCollapse)}>
           <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
