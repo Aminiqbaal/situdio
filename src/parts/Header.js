@@ -123,7 +123,7 @@ export default function Header() {
                     alt="SCI Logo"
                     className="w-5 h-5 object-contain"
                   />
-                  <span>SCI</span>
+                  <span>Cak Tech</span>
                 </a>
               </li>
               <li>
