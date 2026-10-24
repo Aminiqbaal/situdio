@@ -13,6 +13,9 @@ import { useLocation } from 'react-router-dom';
 import Button from '../elements/Button';
 import BrandIcon from './BrandIcon';
 import logoSitudio from '../assets/images/Logo/logo situdio.png';
+import syntaraLogo from "../assets/images/Products/Syntara.png";
+import wedoraLogo from "../assets/images/Products/wedoraLogo.png";
+import sciLogo from "../assets/images/Products/sciLogo.png";
 
 export default function Header() {
   const [isCollapse, setIsCollapse] = useState(false);
@@ -94,17 +97,48 @@ export default function Header() {
           >
             <ul className="absolute left-0 mt-2 w-48 bg-white border border-gray-100 shadow-xl rounded-xl overflow-hidden z-50">
               <li>
-                <a 
-                // href="https://situdio-wedding.vercel.app/"
-                 target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
-                  E-Wedding
+                <a
+                  // href="https://portofolio-iqbaal.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors"
+                >
+                  <img
+                    src={wedoraLogo}
+                    alt="Wedora Logo"
+                    className="w-5 h-5 object-contain"
+                  />
+                  <span>Wedora</span>
                 </a>
               </li>
               <li>
-                <a 
-                href="https://portofolio-iqbaal.vercel.app/" 
-                 target="_blank" rel="noopener noreferrer" className="block px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors">
-                  Company Profile
+                <a
+                  href="https://portofolio-iqbaal.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors"
+                >
+                  <img
+                    src={sciLogo}
+                    alt="SCI Logo"
+                    className="w-5 h-5 object-contain"
+                  />
+                  <span>SCI</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  // href="https://portofolio-iqbaal.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-5 py-3 text-sm text-theme-blue hover:bg-gray-50 hover:text-theme-purple transition-colors"
+                >
+                  <img
+                    src={syntaraLogo}
+                    alt="Syntara Logo"
+                    className="w-5 h-5 object-contain"
+                  />
+                  <span>Syntara ERP</span>
                 </a>
               </li>
               {/* <li>
