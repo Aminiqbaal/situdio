@@ -108,7 +108,7 @@ export default function Header() {
                     alt="Wedora Logo"
                     className="w-5 h-5 object-contain"
                   />
-                  <span>Wedora</span>
+                  <span>SIWedora</span>
                 </a>
               </li>
               <li>
@@ -123,7 +123,7 @@ export default function Header() {
                     alt="SCI Logo"
                     className="w-5 h-5 object-contain"
                   />
-                  <span>Cak Tech</span>
+                  <span>SICak</span>
                 </a>
               </li>
               <li>
@@ -135,10 +135,10 @@ export default function Header() {
                 >
                   <img
                     src={syntaraLogo}
-                    alt="Syntara Logo"
+                    alt="SIntara Logo"
                     className="w-5 h-5 object-contain"
                   />
-                  <span>Syntara ERP</span>
+                  <span>SIntara ERP</span>
                 </a>
               </li>
               {/* <li>
